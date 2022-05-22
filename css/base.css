@@ -1,0 +1,41 @@
+:root{
+
+}
+
+.black {
+    background-color:var(--bs-dark);
+}
+
+.orange {
+    background-color: var(--bs-orange);
+}
+
+.row {
+   
+   display: flex;
+   gap: 10px;
+   row-gap: 10px;
+   flex-wrap:nowrap;
+  
+  
+  
+} 
+
+header .row div{
+
+    height: 10vh;
+ 
+}
+main .row{
+
+    height: calc(80vh - 20px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+ }
+
+footer .row{
+
+    height: 10vh;
+    
+}
